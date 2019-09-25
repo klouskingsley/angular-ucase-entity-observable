@@ -13,7 +13,7 @@ import {CommentWsEntity} from './comment/comment-ws.entity'
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, CommentComponent, AComponent ],
+  declarations: [ AppComponent, CommentComponent, DefaultStrategyComponent ],
   bootstrap:    [ AppComponent ],
   providers: [CommentUcase, CommentWsEntity],
 })
